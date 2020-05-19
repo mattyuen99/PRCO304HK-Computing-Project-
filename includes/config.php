@@ -21,10 +21,10 @@ if($hosted == 0)
 	define('PASSWORD','');
 	define('DB_NAME','personnel_records');
 
-	// $website_url = "http://localhost/Nomi/12-May-2020 - encrypt";
+	
 	$website_url = "http://localhost/project";
 	
-	date_default_timezone_set("Asia/Karachi");
+	date_default_timezone_set("Asia/China");
 }
 else
 {
@@ -36,7 +36,7 @@ else
 
 	$website_url = "";
 	
-	date_default_timezone_set("Asia/Karachi");
+	date_default_timezone_set("Asia/China");
 }
 
 $connection =  @mysqli_connect(HOST,USER,PASSWORD,DB_NAME);
