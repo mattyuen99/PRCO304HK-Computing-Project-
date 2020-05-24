@@ -1,0 +1,11 @@
+# -----------------------------------------------
+
+#Below Code should must be write for handling htaccess codes
+RewriteEngine On
+
+# -----------------------------------------------
+
+# For Showing login.php as First Page
+DirectoryIndex index.php
+
+# -----------------------------------------------
