@@ -1,0 +1,21 @@
+# -----------------------------------------------
+
+#Below Code should must be write for handling htaccess codes
+RewriteEngine On
+
+# -----------------------------------------------
+
+# For Showing login.php as First Page
+DirectoryIndex login.php
+
+# -----------------------------------------------
+
+# For Showing All types of Errors
+# php_flag display_errors 1
+
+# -----------------------------------------------
+
+#For Redirecting to Some Page If Page Not Found
+ErrorDocument 404 /login.php
+
+# -----------------------------------------------
