@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2020 at 05:50 PM
+-- Generation Time: May 25, 2020 at 08:51 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.5
 
@@ -43,10 +43,8 @@ CREATE TABLE `personnel` (
 --
 
 INSERT INTO `personnel` (`auto_id`, `Service`, `Phone`, `Date`, `account`, `password`, `address`) VALUES
-(1, 'Twitter', '12345567', '2020-05-08', 'twitter@email.com', 'password', 'twitter.com'),
-(2, 'Facebook', '1234567', '2020-05-08', 'facebook@email.com', 'facebook', 'facebook.com'),
-(3, 'Instagram', '1234567', '2020-05-01', 'instagram@email.com', 'insinsins1314', 'instagram.com'),
-(8, 'Twitter', '1234567', '2020-05-10', 'twit2@email.com', '1414655', 'twitter.com');
+(19, '\'f2õb9P½MþÞ:©#', 'p¸2³XGüÔiÁÅ1', '2020-05-25', '˜éN»KÄ15¿Ë¾œ®m)', '\rŠ²Û–V¢oÝýÂˆ0–Fý', 'KÂC-è‰¨è½‡´5ž1'),
+(20, 'ðUç)CY²_ó[ÝÅ‡\0¯s', 'p¸2³XGüÔiÁÅ1', '2020-05-25', 'p¸2³XGüÔiÁÅ1', '¤Žlƒä;1iö½(É)', 'í!‚=áÍŒþ¾ˆ%FÖûdÇSAó u{J¡¿¯Ä.');
 
 -- --------------------------------------------------------
 
@@ -67,8 +65,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`auto_id`, `name`, `email`, `password`, `type`) VALUES
-(1, 'read', 'read@email.com', 'read', 1),
-(5, 'admin', 'admin@email.com', 'admin', 2);
+(1, 'read', 'read', 'read', 1),
+(5, 'admin', 'admin', 'admin', 2);
 
 
 
