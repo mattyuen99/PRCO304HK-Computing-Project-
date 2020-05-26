@@ -115,7 +115,7 @@ th,td
 								<td>
 									<form action="<?php echo $website_url ?>/action.php" method="POST">
 										<input type="hidden" name="personnel_auto_id" value="<?php echo $personnel_auto_id; ?>" />
-										<button type="submit" class="btn btn-xs btn-danger" name="delete_personnel" value="1" onclick="return confirm('Are you sure you want to delete this Personnel?')">Delete</button>
+										<button type="submit" class="btn btn-xs btn-danger" name="delete_personnel" value="1" onclick="return confirm('Are you sure you want to delete this Personal Record?')">Delete</button>
 									</form>
 								</td>
 								<td>
