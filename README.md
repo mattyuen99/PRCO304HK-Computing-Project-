@@ -8,7 +8,6 @@ The project is to provide an encrypted database which contain personal identifia
 User will access data though the user client instead of directly accessing the database. With the database, user can record a service, the account and password that being used in this service. Some extra information is also being record in terms of password recovery. For example phone number, this could be a login and also a key to recover account. Also date will be one of the field since this can remind user to update their password or knowing when this account is being set up.
 
 Allocated Supervisor:
-Dr. Marco Palomino
 Dr. Ivy Wong
 
 Creative Common License This work is licensed under a Creative Commons Attribution 4.0 International License.
