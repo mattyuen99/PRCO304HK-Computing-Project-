@@ -9,6 +9,7 @@ User will access data though the user client instead of directly accessing the d
 
 Allocated Supervisor:
 Dr. Ivy Wong
+Dr. Marco Palomino
 
 Creative Common License This work is licensed under a Creative Commons Attribution 4.0 International License.
 
